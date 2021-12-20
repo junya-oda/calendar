@@ -1,0 +1,211 @@
+body {
+    height: 100%;
+    background-color: #f5f5f5;
+    /* font-family: Hiragino Sans, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MSPGothic", arial, helvetica, sans-serif; */
+    line-height: 1.5;
+    color: #333;
+    min-width: 1280px;
+    overflow-x: scroll;
+}
+h3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ul {
+    list-style: none;
+}
+.attention {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: red;
+}
+.check {
+    text-align: center;
+    font-size: 2rem;
+    color: #ffcd00;
+}
+.textform {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.textform-s {
+    width: 4em;
+}
+.textform-m {
+    width: 20em;
+}
+.textform-l {
+    width: 40em;
+}
+textarea {
+    width: 40em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.test-content {
+    box-sizing: border-box;
+    max-width: 980px;
+    min-width: 720px;
+    margin: 0 auto;
+    padding: 0 3%;
+}
+.test-block {
+    margin: 20px 0;
+    overflow: hidden;
+    border: 4px solid #e8e8e8;
+    border-radius: 5px;
+}
+.test-block-heading {
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: #e8e8e8;
+}
+.test-block-body {
+    padding: 20px;
+}
+.test-block-note {
+    margin-top: 0;
+}
+/* .test-table */
+.test-table {
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: rgb(0, 0, 0 /20%) 0 0 5px 0px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.test-table th {
+    width: 150px;
+    background-color: #f7f7f7;
+    white-space: nowrap;
+    padding: 1em 1em;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.test-table td {
+    white-space: nowrap;
+    padding: 1em 1em;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.test-table img {
+    vertical-align: middle;
+}
+/* .test-preview */
+.test-preview {
+    /* position: fixed; */
+    /* top: 0; */
+    width: 100%;
+    /* z-index: 1; */
+}
+.test-preview-heading {
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    color: white;
+    background-color: black;
+}
+.test-preview-body {
+    background-color: white;
+    text-align: center;
+}
+.test-preview-footer-bar {
+    height: 10px;
+    background-color: black;
+}
+
+#output-catchcopy {
+    font-size: 2rem;
+}
+#output-company-name {
+    font-size: 4rem;
+}
+.postalcode {
+    font-size: 2rem;
+    background-color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+#output-address {
+    padding-left: 20px;
+}
+.number {
+    font-size: 2rem;
+    background-color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+#output-fax-number {
+    padding-left: 50px;
+}
+.mail-url {
+    font-size: 2rem;
+    background-color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+#output-url {
+    padding-left: 50px;
+}
+.staffcheck {
+    background-color: #333;
+    color: white;
+    padding-bottom: 10px;
+}
+/* .send-button1 */
+.send-button1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.button1 {
+    font-size: 1rem;
+}
+/* .font_sample */
+.normal_gothic {
+    /* font-family: 'M PLUS 1p', sans-serif; */
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.bold_gothic {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 700;
+}
+/* googlefontsに無い */
+.normal_mincho {
+    font-family: serif;
+    font-weight: 500;
+}
+.round_gothic {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
+}
+/* googlefontsに無い */
+.brush {
+    font-family: 'Yuji Boku', serif;
+    font-weight: 400;
+}
+/* googlefontsに無い */
+.pen {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 100;
+}

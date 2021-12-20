@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <div class="test-content">
+            <div class="test-block">
+                <h3 class="test-block-heading">納期・送り先・備考</h3>
+                <div class="test-block-body">
+                    <table class="test-table">
+                        <tbody>
+                            <tr>
+                                <th colspan="2" class="test-table-th">
+                                    納期
+                                    <br>
+                                    <a href="">納期について</a>
+                                </th>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            <label>
+                                                <input required="required" name="test5" type="radio">
+                                                通常納品
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label>
+                                                <input required="required" name="test5" type="radio">
+                                                特急納品
+                                                <br>
+                                                【数量限定】ご注文状況により追加納期を1~2営業日頂戴する可能性がございます
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="2">遠方へのお届け</th>
+                                <td>
+                                    <label>
+                                        <input type="hidden" value="0">
+                                        <input type="checkbox" value="1">
+                                        沖縄への配送が含まれる
+                                    </label>
+                                    <p class="attention">
+                                        沖縄への配送は、別途追加料金2,200円（税込）が発生します。
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="2">分納</th>
+                                <td>
+                                    <label>
+                                        <input type="checkbox">
+                                        複数箇所への納品を希望する
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="2">備考欄</th>
+                                <td>
+                                    <textarea name="" id="" cols="80" rows="8"></textarea>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

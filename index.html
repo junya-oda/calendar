@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+    //共通パーツ読み込み
+    $(function() {
+        $("#item").load("item.html");
+        $("#header").load("header.html");
+        $("#main1").load("main1.html");
+        $("#main2").load("main2.html");
+        $("#main3").load("main3.html");
+        $("#preview").load("preview.html");
+        $("#main4").load("main4.html");
+        $("#main5").load("main5.html");
+        $("#main6").load("main6.html");
+    });
+    </script>
+</head>
+<body>
+    <h1 style="text-align: center;">サンプルで作成してみたよ</h1>
+    <!-- 『カレンダー一覧』 -->
+    <div id="item"></div>
+    <!-- 『名入れ内容の入力』 -->
+    <div id="header"></div>
+    <!-- 『名入れ位置を選ぶ』 -->
+    <div id="main1"></div>
+    <!-- 『書体を選ぶ』 -->
+    <div id="main2"></div>
+    
+    <!-- 『色を選ぶ』 -->
+    <!-- <div id="main3"></div> -->
+    
+    <!-- 『名入れ原稿プレビュー』 -->
+    <div id="preview"></div>
+    
+    <!-- 『冊数・包装の入力』 -->
+    <!-- <div id="main4"></div> -->
+    <!-- 『納期・送り先・備考』 -->
+    <!-- <div id="main5"></div> -->
+    
+    <!-- 『注文内容確認ボタン』 -->
+    <div id="main6"></div>
+    
+    <script src="preview.js"></script>
+</body>
+</html>

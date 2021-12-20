@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main3">
+        <div class="test-content">
+            <div class="test-block">
+                <h3 class="test-block-heading">冊数・包装の入力</h3>
+                <div class="test-block-body">
+                    <table class="test-table">
+                        <tbody>
+                            <tr>
+                                <th colspan="2" class="test-table-th">
+                                    冊数
+                                </th>
+                                <td>
+                                    <input required="required" min="50" max="590" step="10" type="number" value="">
+                                    冊
+                                <p class="attention">
+                                    ※50冊~590冊まで10冊単位でご注文いただけます。
+                                    <br>
+                                    ※600冊以上をご注文の場合は
+                                    <a href="">お見積もり請求</a>
+                                    からお問い合わせください。
+                                </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2" class="test-table-th">
+                                    ラッピング
+                                    <br>
+                                    <a href="">ギフトケース詳細</a>
+                                </th>
+                                <th>無料梱包</th>
+                                <td>
+                                    <label class="test-wrapping">
+                                        <input required="required" type="radio" name="test4" value="12">
+                                        <span class="test-wrapping-img"><img src="" alt=""></span>
+                                        <span class="test-wrapping-desc">
+                                            壁掛け用無料ビニール（0円）
+                                            <br>
+                                            注文数：カレンダー数分
+                                        </span>
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    有料梱包
+                                    <br>
+                                    (オプション)
+                                </th>
+                                <td>
+                                    <label class="test-wrapping">
+                                        <input required="required" type="radio" name="test4" value="13">
+                                        <span class="test-wrapping-img"><img src="" alt=""></span>
+                                        <span class="test-wrapping-desc">
+                                            46/4切・A2サイズ用筒型ケース（110円）
+                                            <br>
+                                            注文数：
+                                            <input type="text" class="textform-s">
+                                        </span>
+                                    </label>
+                                    <p class="attention">
+                                        ※有料ギフトケースをご注文のお客様には、カレンダー数分の無料個装袋もお付けします。
+                                    </p>
+                                    <p>
+                                        ※弊社での梱包サービスは行っておりません。
+                                        <br>
+                                        ※商品・数量により配送方法が異なります。
+                                        <a href="">こちら</a>
+                                        からご確認ください。
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

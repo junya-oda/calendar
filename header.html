@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <div class="test-content">
+            <div class="test-block">
+                <h3 class="test-block-heading">名入れ内容の入力</h3>
+                <div class="test-block-body">
+                    <p class="test-block-note">
+                        ご希望の名入れ情報をご入力ください。
+                        <br>
+                        (株) (有) (代) などの環境依存文字や機種依存文字は、正しく印刷されないため、ご使用いただけません。
+                    </p>
+                    <!-- <form action="xxx.php" method="post"> -->
+                        <table class="test-table">
+                            <tbody>
+                                <tr>
+                                    <th class="test-table-th">社名</th>
+                                    <td>
+                                        <input type="text" class="textform textform-m"  id="info-0" onkeyup="showMessage1()">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>郵便番号</th>
+                                    <td>
+                                        <input type="text" class="textform textform-s" id="info-1" onkeyup="showMessage2()">
+                                        - 
+                                        <input type="text" class="textform textform-s" id="info-2" onkeyup="showMessage3()">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>住所</th>
+                                    <td>
+                                        <input type="text" class="textform textform-l" id="info-3" onkeyup="showMessage4()">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>電話番号</th>
+                                    <td>
+                                        <input type="text" class="textform textform-l" id="info-4" onkeyup="showMessage5()">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>FAX番号</th>
+                                    <td>
+                                        <input type="text" class="textform textform-l" id="info-5" onkeyup="showMessage6()">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>メールアドレス</th>
+                                    <td>
+                                        <input type="text" class="textform textform-l" id="info-6" onkeyup="showMessage7()">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>URL</th>
+                                    <td>
+                                        <input type="text" class="textform textform-l" id="info-7" onkeyup="showMessage8()">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>キャッチコピー</th>
+                                    <td>
+                                        <input type="text" class="textform textform-l" id="info-8" onkeyup="showMessage9()">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>その他</th>
+                                    <td>
+                                        <textarea placeholder="上記以外の情報を印刷希望の場合はこちらにご記入ください" name="" id="info-9" cols="" rows="6"></textarea>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    <!-- </form> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="test-preview">
+        <h3 class="test-preview-heading">名入れ原稿プレビュー</h3>
+        <div class="test-preview-body">
+            <!-- ここに文字を表示させたい -->
+            <div id="test-preview-body-sentence">
+                <div id="output-catchcopy"></div>
+                <div id="output-company-name"></div>
+                <div class="postalcode">
+                    <div id="output-postal-code1"></div>
+                    <div id="output-postal-code2"></div>
+                    <div id="output-address"></div>
+                </div>
+                <div class="number">
+                    <div id="output-telephone-number"></div>
+                    <div id="output-fax-number"></div>
+                </div>
+                <div class="mail-url">
+                    <div id="output-mail"></div>
+                    <div id="output-url"></div>
+                </div>
+            </div>
+            <div class="test-preview-footer">
+                <p class="test-preview-footer-text">文字サイズのバランスなど、専門スタッフがデータをチェックしてから印刷しておりますのでご安心ください。</p>
+                <div class="test-preview-footer-bar"></div>
+            </div>
+            <div class="staffcheck">
+                <p class="check">名入れ原稿をご確認下さい</p>
+                <div>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="radio" name="test6" value="">
+                                上記原稿で印刷内容を確定する
+                                <span style="opacity: .8; font-size: 0.8rem;">
+                                ※スタッフによるデータチェック後、こちらの原稿でそのまま印刷工程に入ります。
+                                以降の原稿の修正は一切お受付できませんので、ご注意ください。
+                                </span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="test6" value="" onclick="showForm()">
+                                スタッフによる原稿修正を希望する
+                                <span style="opacity: .8; font-size: 0.8rem;">
+                                    ※ご注文確認後に原稿を修正致します。修正原稿はメールにて後ほどお送りさせて頂きます。
+                                </span>
+                                <div id=""></div>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="position.js"></script>
+    <script src="font.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="test-content">
+            <div class="test-block">
+                <h3 class="test-block-heading">名入れ内容のご確認</h3>
+                <div class="test-block-body">
+                    <!-- <p class="test-block-note"></p> -->
+                    <!-- <form action="xxx.php" method="post"> -->
+                        <table class="test-table">
+                            <tbody>
+                                <tr>
+                                    <th class="test-table-th">社名</th>
+                                    <td>
+                                        <p id="confirm-0"></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>郵便番号</th>
+                                    <td>
+                                        <p id="confirm-1"></p>
+                                         - 
+                                         <p id="confirm-2"></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>住所</th>
+                                    <td>
+                                        <p id="confirm-3"></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>電話番号</th>
+                                    <td>
+                                        <p id="confirm-4"></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>FAX番号</th>
+                                    <td>
+                                        <p id="confirm-5"></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>メールアドレス</th>
+                                    <td>
+                                        <p id="confirm-6"></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>URL</th>
+                                    <td>
+                                        <p id="confirm-7"></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>キャッチコピー</th>
+                                    <td>
+                                        <p id="confirm-8"></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>その他</th>
+                                    <td>
+                                        <p id="confirm-9"></p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    <!-- </form> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main1">
+        <div class="test-content">
+            <div class="test-block">
+                <h3 class="test-block-heading">名入れ位置のご確認</h3>
+                <div class="test-block-body">
+                    <table class="test-table">
+                        <tbody>
+                            <tr>
+                                <th class="test-table-th">
+                                    <p>位置</p>
+                                </th>
+                                <td>
+                                    <p id="confirm-10"></p>
+                                </td>
+                            </tr>    
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main1">
+        <div class="test-content">
+            <div class="test-block">
+                <h3 class="test-block-heading">書体のご確認</h3>
+                <div class="test-block-body">
+                    <table class="test-table">
+                        <tbody>
+                            <tr>
+                                <th class="test-table-th">
+                                    <p>書体</p>
+                                </th>
+                                <td class="fnormal_gothic">
+                                    <p id="confirm-11"></p>
+                                </td>
+                            </tr>                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="button2()">注文する！</button>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="confirm.js"></script>
+    <script src="send.js"></script>
+</body>
