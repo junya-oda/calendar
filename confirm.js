@@ -11,6 +11,7 @@ $("#button1").click(function(){
     const str9 = $("#info-9").val();
     const str10 = $('input:radio[name="position"]:checked').val();
     const str11 = $('input:radio[name="font-type"]:checked').val();
+    const str12 = $('input:radio[name="sort"]:checked').val();
     localStorage.setItem('company-name', str0);
     localStorage.setItem('postal-code1', str1);
     localStorage.setItem('postal-code2', str2);
@@ -23,6 +24,7 @@ $("#button1").click(function(){
     localStorage.setItem('other', str9);
     localStorage.setItem('position', str10);
     localStorage.setItem('font-type', str11);
+    localStorage.setItem('sort', str12);
 });
 
 window.onload = function(){
@@ -38,6 +40,7 @@ window.onload = function(){
     var other = localStorage.getItem('other');
     var position = localStorage.getItem('position');
     var font_type = localStorage.getItem('font-type');
+    var sort = localStorage.getItem('sort');
     $("#confirm-0").text(company_name);
     $("#confirm-1").text(postal_code1);
     $("#confirm-2").text(postal_code2);
@@ -50,4 +53,5 @@ window.onload = function(){
     $("#confirm-9").text(other);
     $("#confirm-10").text(position);
     $("#confirm-11").text(font_type);
+    $("#confirm-12").text(sort);
 };
