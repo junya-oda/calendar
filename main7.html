@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1 style="text-align: center;">名入れ内容のご確認</h1>
     <div id="main1">
         <div class="test-content">
             <div class="test-block">
@@ -48,10 +49,10 @@
                                 </tr>
                                 <tr>
                                     <th>郵便番号</th>
-                                    <td>
+                                    <td class="confirm-td">
                                         <p id="confirm-1"></p>
-                                         - 
-                                         <p id="confirm-2"></p>
+                                        <p> - </p>
+                                        <p id="confirm-2"></p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -148,7 +149,9 @@
         </div>
     </div>
 
-    <button onclick="button2()">注文する！</button>
+    <div class="send-button2">
+        <button onclick="button2()" class="button2"><span class="link2">この内容で注文する</span></button>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>

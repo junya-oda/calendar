@@ -32,7 +32,7 @@ ul {
 .check {
     text-align: center;
     font-size: 2rem;
-    color: #ffcd00;
+    color: #2dcebe;
 }
 .textform {
     border: 1px solid #ccc;
@@ -116,6 +116,7 @@ textarea {
     /* top: 0; */
     width: 100%;
     /* z-index: 1; */
+    /* position: relative; */
 }
 .test-preview-heading {
     text-align: center;
@@ -128,6 +129,12 @@ textarea {
 }
 .test-preview-body {
     background-color: white;
+    text-align: left;
+}
+#test-preview-body-sentence {
+    /* position: absolute; */
+}
+.test-preview-footer-text {
     text-align: center;
 }
 .test-preview-footer-bar {
@@ -136,33 +143,32 @@ textarea {
 }
 
 #output-catchcopy {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 #output-company-name {
-    font-size: 4rem;
+    font-size: 3rem;
 }
-.postalcode {
-    font-size: 2rem;
+#postalcode {
+    font-size: 1.5rem;
     background-color: white;
-    /* display: flex; */
-    /* justify-content: center; */
+    display: flex;
 }
 #output-address {
     padding-left: 20px;
 }
-.number {
-    font-size: 2rem;
+#number {
+    font-size: 1.5rem;
     background-color: white;
-    /* display: flex; */
+    display: flex;
     /* justify-content: center; */
 }
 #output-fax-number {
     padding-left: 50px;
 }
-.mail-url {
-    font-size: 2rem;
+#mail-url {
+    font-size: 1.5rem;
     background-color: white;
-    /* display: flex; */
+    display: flex;
     /* justify-content: center; */
 }
 #output-url {
@@ -176,10 +182,42 @@ textarea {
 /* .send-button1 */
 .send-button1 {
     text-align: center;
+    padding-top: 20px;
     padding-bottom: 10px;
 }
 .button1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    background-color: #eb6100;
+    border-radius: 8px;
+}
+/* .send-button2 */
+.send-button2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.button2 {
+    font-size: 1.5rem;
+    background-color: #eb6100;
+    border-radius: 8px;
+}
+.link1 {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-color: #eb6100;
+}
+.link2 {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-color: #eb6100;
 }
 /* .font_sample */
 .normal_gothic {
@@ -222,4 +260,8 @@ textarea {
 }
 .calender-type-img-radio {
     text-align: center;
+}
+
+.confirm-td {
+    display: flex;
 }
